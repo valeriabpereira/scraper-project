@@ -1,0 +1,66 @@
+# Cloud Deployment
+
+For this deployment, it is going to be used the Azure Functions tool. Once the csv "categories_to_scrape.csv" is modified and uploaded into a blob storage, the Azure Functions is triggered and the scraper script is going to be runned.
+
+# Instructions
+
+## Step 1: Install Azure Tools
+
+  1. Install the Azure Function Core Tools using bash: "npm install -g azure-functions-core-tools@4 --unsafe-perm true"
+  2. Install the Azure CLI: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+  3. Login: "az login"
+
+## Step 2: Create an Azure Function App
+
+  1. In a project folder using bash:
+
+    func init scraper_project --python
+    cd scraper_project
+    func new --name run_scraper --template "Blob trigger"
+
+    This creates a function triggered by a blob upload
+
+## Step 3: Setup Blob Trigger
+
+  1. Edit function.json
+
+  {
+  "bindings": [
+    {
+      "name": "inputBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "scraper_project/data/input/categories_to_scrape.csv",
+      "connection": "AzureWebJobsStorage"
+    }
+  ]
+}
+  This listens for CSV uploads to scraper_project/data/input in the connected blob container.
+
+## Step 4: Read the CSV in Python Function
+
+    1. In run_scraped/__init__.py create:
+    
+    import logging
+    import azure.functions as func
+    import csv
+    import io
+    
+    def main(inputBlob: func.InputStream):
+        content = inputBlob.read().decode('utf-8')
+        input_categories = [row[0] for row in csv.reader(io.StringIO(content))]
+    
+        logging.info(f"📁 Categories to scrape: {input_categories}")
+        
+        # Call the scraping logic here
+
+    The scraper.py logic must be pasted below the comment "# Call the scrapping logic here"
+
+## Step 5: Deploy to Azure
+
+  func azure functionapp publish <scraper-project>
+
+## Step 6: Testing
+
+  Upload categories_to_scrape.csv into the specified Blob container (scraper_project/data/input/).
+  This will automatically trigger the function and run the script.
