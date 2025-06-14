@@ -11,3 +11,7 @@ saves the results in JSON Lines format with proper logging and a clear output st
 3. Activate your virtual environment using "venv\Scripts\activate"
 4. Install requirements using "pip install -r requirements.txt"
 5. Run the script using "python scraper.py"
+
+# Cloud Deployment
+
+The Cloud Deployment should be done by using Azure Functions and also Azure Blob Storage. Once the categories_to_scrape.csv is changed and uploaded into the blob storage, it will trigger a function and start scraper. Instructions detailed on "Cloud-Deployment.docx".
