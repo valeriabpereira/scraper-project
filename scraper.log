@@ -1,0 +1,132 @@
+2025-06-14 18:03:26 [INFO] Script started at 2025-06-14 18:03:26
+2025-06-14 18:03:26 [INFO] ====== WebDriver manager ======
+2025-06-14 18:03:30 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:03:30 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:03:31 [INFO] Driver [C:\Users\Pichau\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-14 18:03:38 [INFO]   Scraping category: Travel
+2025-06-14 18:03:39 [INFO]   Found 11 books in Travel
+2025-06-14 18:03:40 [INFO]     1. It's Only the Himalayas
+2025-06-14 18:03:41 [INFO]     2. Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond
+2025-06-14 18:03:42 [INFO]     3. See America: A Celebration of Our National Parks & Treasured Sites
+2025-06-14 18:03:43 [INFO]     4. Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel
+2025-06-14 18:03:44 [INFO]     5. Under the Tuscan Sun
+2025-06-14 18:03:45 [INFO]     6. A Summer In Europe
+2025-06-14 18:03:47 [INFO]     7. The Great Railway Bazaar
+2025-06-14 18:03:48 [INFO]     8. A Year in Provence (Provence #1)
+2025-06-14 18:03:49 [INFO]     9. The Road to Little Dribbling: Adventures of an American in Britain (Notes From a Small Island #2)
+2025-06-14 18:03:50 [INFO]     10. Neither Here nor There: Travels in Europe
+2025-06-14 18:03:52 [INFO]     11. 1,000 Places to See Before You Die
+2025-06-14 18:03:52 [INFO]   Scraping category: Mystery
+2025-06-14 18:04:04 [WARNING] Timeout while loading books in: https://books.toscrape.com/catalogue/category/books/mystery_3/index.html
+2025-06-14 18:04:04 [INFO]   Found 20 books in Mystery
+2025-06-14 18:04:05 [INFO]     1. Sharp Objects
+2025-06-14 18:04:06 [INFO]     2. In a Dark, Dark Wood
+2025-06-14 18:04:08 [INFO]     3. The Past Never Ends
+2025-06-14 18:04:09 [INFO]     4. A Murder in Time
+2025-06-14 18:04:11 [INFO]     5. The Murder of Roger Ackroyd (Hercule Poirot #4)
+2025-06-14 18:04:12 [INFO]     6. The Last Mile (Amos Decker #2)
+2025-06-14 18:04:14 [INFO]     7. That Darkness (Gardiner and Renner #1)
+2025-06-14 18:04:15 [INFO]     8. Tastes Like Fear (DI Marnie Rome #3)
+2025-06-14 18:04:16 [INFO]     9. A Time of Torment (Charlie Parker #14)
+2025-06-14 18:04:18 [INFO]     10. A Study in Scarlet (Sherlock Holmes #1)
+2025-06-14 18:04:19 [INFO]     11. Poisonous (Max Revere Novels #3)
+2025-06-14 18:04:20 [INFO]     12. Murder at the 42nd Street Library (Raymond Ambler #1)
+2025-06-14 18:04:22 [INFO]     13. Most Wanted
+2025-06-14 18:04:23 [INFO]     14. Hide Away (Eve Duncan #20)
+2025-06-14 18:04:25 [INFO]     15. Boar Island (Anna Pigeon #19)
+2025-06-14 18:04:26 [INFO]     16. The Widow
+2025-06-14 18:04:27 [INFO]     17. Playing with Fire
+2025-06-14 18:04:29 [INFO]     18. What Happened on Beale Street (Secrets of the South Mysteries #2)
+2025-06-14 18:04:30 [INFO]     19. The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)
+2025-06-14 18:04:32 [INFO]     20. Delivering the Truth (Quaker Midwife Mystery #1)
+2025-06-14 18:04:32 [INFO]   Scraping category: Historical Fiction
+2025-06-14 18:04:44 [WARNING] Timeout while loading books in: https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html
+2025-06-14 18:04:44 [INFO]   Found 20 books in Historical Fiction
+2025-06-14 18:04:45 [INFO]     1. Tipping the Velvet
+2025-06-14 18:04:47 [INFO]     2. Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton
+2025-06-14 18:04:48 [INFO]     3. A Flight of Arrows (The Pathfinders #2)
+2025-06-14 18:04:50 [INFO]     4. The House by the Lake
+2025-06-14 18:04:52 [INFO]     5. Mrs. Houdini
+2025-06-14 18:04:53 [INFO]     6. The Marriage of Opposites
+2025-06-14 18:04:55 [INFO]     7. Glory over Everything: Beyond The Kitchen House
+2025-06-14 18:04:57 [INFO]     8. Love, Lies and Spies
+2025-06-14 18:04:59 [INFO]     9. A Paris Apartment
+2025-06-14 18:05:01 [INFO]     10. Lilac Girls
+2025-06-14 18:05:02 [INFO]     11. The Constant Princess (The Tudor Court #1)
+2025-06-14 18:05:04 [INFO]     12. The Invention of Wings
+2025-06-14 18:05:06 [INFO]     13. World Without End (The Pillars of the Earth #2)
+2025-06-14 18:05:07 [INFO]     14. The Passion of Dolssa
+2025-06-14 18:05:09 [INFO]     15. Girl With a Pearl Earring
+2025-06-14 18:05:11 [INFO]     16. Voyager (Outlander #3)
+2025-06-14 18:05:13 [INFO]     17. The Red Tent
+2025-06-14 18:05:15 [INFO]     18. The Last Painting of Sara de Vos
+2025-06-14 18:05:17 [INFO]     19. The Guernsey Literary and Potato Peel Pie Society
+2025-06-14 18:05:18 [INFO]     20. Girl in the Blue Coat
+2025-06-14 18:05:21 [INFO] Data saved to: ./data/2025-06-14_180521\books_to_scrape.jsonl
+2025-06-14 18:05:21 [INFO] Script finished successfully at 2025-06-14 18:05:21
+2025-06-14 18:09:29 [INFO] Script started at 2025-06-14 18:09:29
+2025-06-14 18:09:29 [INFO] ====== WebDriver manager ======
+2025-06-14 18:09:33 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:09:33 [INFO] Get LATEST chromedriver version for google-chrome
+2025-06-14 18:09:34 [INFO] Driver [C:\Users\Pichau\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-14 18:09:41 [INFO]   Scraping category: Travel
+2025-06-14 18:09:42 [INFO]   Found 11 books in Travel
+2025-06-14 18:09:44 [INFO]     1. It's Only the Himalayas
+2025-06-14 18:09:45 [INFO]     2. Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond
+2025-06-14 18:09:46 [INFO]     3. See America: A Celebration of Our National Parks & Treasured Sites
+2025-06-14 18:09:46 [INFO]     4. Vagabonding: An Uncommon Guide to the Art of Long-Term World Travel
+2025-06-14 18:09:48 [INFO]     5. Under the Tuscan Sun
+2025-06-14 18:09:49 [INFO]     6. A Summer In Europe
+2025-06-14 18:09:50 [INFO]     7. The Great Railway Bazaar
+2025-06-14 18:09:51 [INFO]     8. A Year in Provence (Provence #1)
+2025-06-14 18:09:52 [INFO]     9. The Road to Little Dribbling: Adventures of an American in Britain (Notes From a Small Island #2)
+2025-06-14 18:09:53 [INFO]     10. Neither Here nor There: Travels in Europe
+2025-06-14 18:09:55 [INFO]     11. 1,000 Places to See Before You Die
+2025-06-14 18:09:55 [INFO]   Scraping category: Mystery
+2025-06-14 18:10:06 [WARNING] Timeout while loading books in: https://books.toscrape.com/catalogue/category/books/mystery_3/index.html - Retrying...
+2025-06-14 18:10:06 [INFO]   Found 20 books in Mystery
+2025-06-14 18:10:08 [INFO]     1. Sharp Objects
+2025-06-14 18:10:09 [INFO]     2. In a Dark, Dark Wood
+2025-06-14 18:10:11 [INFO]     3. The Past Never Ends
+2025-06-14 18:10:13 [INFO]     4. A Murder in Time
+2025-06-14 18:10:14 [INFO]     5. The Murder of Roger Ackroyd (Hercule Poirot #4)
+2025-06-14 18:10:16 [INFO]     6. The Last Mile (Amos Decker #2)
+2025-06-14 18:10:18 [INFO]     7. That Darkness (Gardiner and Renner #1)
+2025-06-14 18:10:20 [INFO]     8. Tastes Like Fear (DI Marnie Rome #3)
+2025-06-14 18:10:22 [INFO]     9. A Time of Torment (Charlie Parker #14)
+2025-06-14 18:10:23 [INFO]     10. A Study in Scarlet (Sherlock Holmes #1)
+2025-06-14 18:10:25 [INFO]     11. Poisonous (Max Revere Novels #3)
+2025-06-14 18:10:27 [INFO]     12. Murder at the 42nd Street Library (Raymond Ambler #1)
+2025-06-14 18:10:28 [INFO]     13. Most Wanted
+2025-06-14 18:10:30 [INFO]     14. Hide Away (Eve Duncan #20)
+2025-06-14 18:10:31 [INFO]     15. Boar Island (Anna Pigeon #19)
+2025-06-14 18:10:33 [INFO]     16. The Widow
+2025-06-14 18:10:35 [INFO]     17. Playing with Fire
+2025-06-14 18:10:47 [INFO]     18. What Happened on Beale Street (Secrets of the South Mysteries #2)
+2025-06-14 18:10:48 [INFO]     19. The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1)
+2025-06-14 18:10:49 [INFO]     20. Delivering the Truth (Quaker Midwife Mystery #1)
+2025-06-14 18:10:49 [INFO]   Scraping category: Historical Fiction
+2025-06-14 18:11:02 [WARNING] Timeout while loading books in: https://books.toscrape.com/catalogue/category/books/historical-fiction_4/index.html - Retrying...
+2025-06-14 18:11:02 [INFO]   Found 20 books in Historical Fiction
+2025-06-14 18:11:03 [INFO]     1. Tipping the Velvet
+2025-06-14 18:11:04 [INFO]     2. Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton
+2025-06-14 18:11:06 [INFO]     3. A Flight of Arrows (The Pathfinders #2)
+2025-06-14 18:11:08 [INFO]     4. The House by the Lake
+2025-06-14 18:11:09 [INFO]     5. Mrs. Houdini
+2025-06-14 18:11:12 [INFO]     6. The Marriage of Opposites
+2025-06-14 18:11:13 [INFO]     7. Glory over Everything: Beyond The Kitchen House
+2025-06-14 18:11:15 [INFO]     8. Love, Lies and Spies
+2025-06-14 18:11:16 [INFO]     9. A Paris Apartment
+2025-06-14 18:11:17 [INFO]     10. Lilac Girls
+2025-06-14 18:11:18 [INFO]     11. The Constant Princess (The Tudor Court #1)
+2025-06-14 18:11:20 [INFO]     12. The Invention of Wings
+2025-06-14 18:11:21 [INFO]     13. World Without End (The Pillars of the Earth #2)
+2025-06-14 18:11:23 [INFO]     14. The Passion of Dolssa
+2025-06-14 18:11:24 [INFO]     15. Girl With a Pearl Earring
+2025-06-14 18:11:25 [INFO]     16. Voyager (Outlander #3)
+2025-06-14 18:11:27 [INFO]     17. The Red Tent
+2025-06-14 18:11:28 [INFO]     18. The Last Painting of Sara de Vos
+2025-06-14 18:11:29 [INFO]     19. The Guernsey Literary and Potato Peel Pie Society
+2025-06-14 18:11:31 [INFO]     20. Girl in the Blue Coat
+2025-06-14 18:11:35 [INFO] Data saved to: ./data/2025-06-14_181135\books_to_scrape.jsonl
+2025-06-14 18:11:35 [INFO] Script finished successfully at 2025-06-14 18:11:35
