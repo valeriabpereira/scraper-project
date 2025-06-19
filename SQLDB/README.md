@@ -9,9 +9,9 @@ The tables were created on database on sqlite_etl.ipynb notebook with an auxilia
 
 Tables:
 
-  1. amazon-data: Table that consolidated all CSV files from amazon-data and add a column "file_extraction_date" as the date of the file name
+  1. amazon-data: Table that consolidated all CSV files from amazon-data and add a column "file_extraction_date" as the date of the file name.
   2. titles: Table that has all data from titles CSV
-  3. titles-cleaned: Table that contains all book titles from titles CSV and also a column "data_cleaned" with the main title of the book without extra-information
+  3. titles-cleaned: Table that contains all book titles from titles CSV and also a column "data_cleaned" with the main title of the book without extra-information. Can be joined with both tables (titles and amazon-data)
 
 Views:
 
