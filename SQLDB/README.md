@@ -5,6 +5,8 @@ Build web scraper ETL and deliver views to the analytics team
 
 # Data Modelling
 
+The tables were created on database on sqlite_etl.ipynb notebook with an auxiliar generic functions notebook utils.ipynb. The database written is database_sqlite.db. Also, it contains a requirements.txt file that has all libraries needed for the ETL.
+
 Tables:
 
   1. amazon-data: Table that consolidated all CSV files from amazon-data and add a column "file_extraction_date" as the date of the file name
